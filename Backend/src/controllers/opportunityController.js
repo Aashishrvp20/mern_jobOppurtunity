@@ -72,7 +72,7 @@ const updateOpportunity = async (req, res) => {
   }
 };
 
-
+// Delete an opportunity
 const deleteOpportunity = async (req, res) => {
   try {
     const opportunity = await Opportunity.findById(req.params._id);
